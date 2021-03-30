@@ -1,0 +1,10 @@
+﻿@model System.Web.Mvc.HandleErrorInfo
+
+@{
+    ViewBag.Title = "Error";
+}
+
+<h2>An Error has occurred please try again later</h2>
+<h5>In Case, show this to your provider (Default Error Page)</h5>
+<h6>@Model.Exception.Message</h6>
+<h6>@Model.Exception.InnerException</h6>
